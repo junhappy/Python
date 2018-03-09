@@ -1,1 +1,9 @@
-test dounyu
+#p7-1
+print(1+4)
+print(3-4)
+print(4/2)
+print(4/3)
+print(4/2.0)
+print(2*3)
+print(2*3)
+print(4%3)
