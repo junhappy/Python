@@ -1,4 +1,4 @@
-#p8-2
+#p8-2課題
 import numpy as np
 
 a =np.array([ 3,5,6,2,1 ])
