@@ -9,7 +9,6 @@ b = np.array([ [1,2],[3,4] ])
 print(la.det(a))
 print(la.inv(a))
 
-
 #print (a)
 #print (inv(a))
 #ainv = inv(a)
