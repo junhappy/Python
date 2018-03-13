@@ -5,18 +5,19 @@ def f(x):
  
 # 導関数
 def df(x):
-    return 2.0*x
+    return 0
 
 # ニュートン法
 def newton_method(a, eps):
-    for i in range(1000):
+    #for i in range(1000):
+    while True :
           # 漸化式
         ah = a - f(a)/df(a)
         # 収束条件(近似解の変化が十分小さい)を満たせば計算終了
         if abs(ah - a) < eps:break
         #　近似解の更新
         a = ah      
-    return a, i
+    return a
     
     
 def main():
